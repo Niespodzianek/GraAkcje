@@ -81,4 +81,4 @@ def run_program():
     print(f"W wyniku gry {wynik}")
 if __name__ == "__main__":
     run_program()
-    print("KONIEC PRACY")
+    print("KONIEC PRACY PROGRAMU")
