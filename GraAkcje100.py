@@ -11,12 +11,15 @@ def run_program():
     print(f"Notowana spółka to: {nazwa_notowanej_spolki}")
     liczba_notowan = int(input("Podaj liczbę notowań: "))
 
-    # Główna pętla programu
+    # Główna pętla
 
     for licznik in range(1, liczba_notowan + 1):
         print(f"Notowanie {licznik} - cena spółki {nazwa_notowanej_spolki} = {cena_akcji_notowanej_spolki: .2f}."
               f" Posiadasz"
               f" {liczba_posiadanych_akcji_spolki} akcji i {gotowka: .2f} pieniędzy")
+
+        # Pętla tranzakcji
+
         czy_glowna_petla_pracuje = True
         while czy_glowna_petla_pracuje:
 
@@ -96,4 +99,4 @@ def run_program():
 
 if __name__ == "__main__":
     run_program()
-    print("KONIEC PRACY ostatecznego testu")
+    print("KONIEC PRACY PROGRAMU")
