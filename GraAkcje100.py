@@ -96,4 +96,4 @@ def run_program():
 
 if __name__ == "__main__":
     run_program()
-    print("KONIEC PRACY PROGRAMU")
+    print("KONIEC PRACY ostatecznego testu")
