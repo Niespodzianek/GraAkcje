@@ -2,6 +2,9 @@ import random
 
 
 def run_program():
+
+    # Warunki początkowe programu
+
     gotowka = 10000
     gotowka_start = gotowka
     print(f"Początkowy stan pieniędzy to: {gotowka_start: .2f}")
