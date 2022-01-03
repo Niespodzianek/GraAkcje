@@ -1,5 +1,4 @@
 #Gra symulująca portfel akcji
-#
 
 Program symuluje notowania giełdowe spółki. Użytkownik kupuje lub sprzedaje akcje. Otrzymuje informacje o stanie portfela. Na koniec sprawdza czy osiąga zysk
 czy stratę.
