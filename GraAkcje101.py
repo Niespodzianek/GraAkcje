@@ -103,3 +103,5 @@ if __name__ == "__main__":
 
 # TODO: wymyślić tytuł programu
 # TODO: inny problem
+# TODO: jeszcze inny kłopot
+# TODO: ostatnia rzecz do zrobienia
