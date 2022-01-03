@@ -1,7 +1,7 @@
-#Gra symulująca portfel akcji
+<h1>Gra symulująca portfel akcji</h1>
 
-Program symuluje notowania giełdowe spółki. Użytkownik kupuje lub sprzedaje akcje. Otrzymuje informacje o stanie portfela. Na koniec sprawdza czy osiąga zysk
-czy stratę.
+<h3>Program symuluje notowania giełdowe spółki. Użytkownik kupuje lub sprzedaje akcje. Otrzymuje informacje o stanie portfela. Na koniec sprawdza czy osiąga zysk
+czy stratę.</h3>
 
 Zmiany kursy dokonują się w zależności  wyboru zmienności rynku: mała - od -3% do 3%, średnia - od -10% do 10%, duża - od -25% do 25%, z dokładnością do 1%.
 
