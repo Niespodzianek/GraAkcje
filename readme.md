@@ -5,6 +5,10 @@ czy stratę.</h3>
 
 Zmiany kursy dokonują się w zależności  wyboru zmienności rynku: mała - od -3% do 3%, średnia - od -10% do 10%, duża - od -25% do 25%, z dokładnością do 1%.
 
+**13 I 2022 ver. 1.0.4**
+
+Zmiany poprawiające prace programu.
+
 **13 I 2022 ver. 1.0.3**
 
 Zmiany poprawiające prace programu.
