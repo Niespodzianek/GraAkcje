@@ -118,9 +118,8 @@ def run_program():
         # Generowanie kolejnego notowania
 
         procent_zmiany_ceny = random.randrange(-zmiennosc, zmiennosc)
-        wartosc_zmiany = ((procent_zmiany_ceny / 100) * cena_akcji_notowanej_spolki)
         nowa_cena_spolki = ((procent_zmiany_ceny / 100) * cena_akcji_notowanej_spolki) + cena_akcji_notowanej_spolki
-        print(f"Zmiana ceny o: {procent_zmiany_ceny}% : {wartosc_zmiany: } : nowa cena to {nowa_cena_spolki: }")
+        print(f"Zmiana ceny o: {procent_zmiany_ceny}% : {((procent_zmiany_ceny / 100) * cena_akcji_notowanej_spolki): .2f} : nowa cena to {nowa_cena_spolki: .2f}")
         cena_akcji_notowanej_spolki = nowa_cena_spolki
 
     # Koniec pracy programu-podsumowanie
@@ -131,13 +130,13 @@ def run_program():
         print("Sprzedajemy wszystkie posiadane akcje")
         gotowka = gotowka + (liczba_posiadanych_akcji_spolki * cena_akcji_notowanej_spolki)
     if gotowka > gotowka_start:
-        wynik = f"zarobiono: {gotowka - gotowka_start: }"
+        wynik = f"zarobiono: {gotowka - gotowka_start: .2f}"
     elif gotowka < gotowka_start:
-        wynik = f"stracono: {gotowka_start - gotowka: }"
+        wynik = f"stracono: {gotowka_start - gotowka: .2f}"
     else:
         wynik = "ani nie zarobiono ani nie stracono pieniędzy."
     print(f"Na początku gry posiadano {gotowka_start: }, w wyniku gry {wynik}, aktualny stan pieniędzy to:"
-          f" {gotowka: }")
+          f" {gotowka: .2f}")
 
 if __name__ == "__main__":
     run_program()

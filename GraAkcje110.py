@@ -11,7 +11,6 @@ def menu():
                            "(O)Otwieranie portfela z pliku\n"
                            "(P)Przegląd portfela\n"
                            "(F)Finanse - wpłata / wypłata\n"
-                           "(N)Otwieranie notowań z pliku i wydruk wykresu\n"
                            "(G)Gra giełdowa\n"
                            "(Q)Koniec pracy programu\n\n")
         if wybor_menu == "T" or wybor_menu == "t":
@@ -28,8 +27,6 @@ def menu():
                 print("Nie stworzono jeszcze żadnego portfela. Przed wpłatą lub wypłatą trzeba utworzyć portfel.")
             else:
                 portfel.finanse()
-        elif wybor_menu == "N" or wybor_menu == "n":
-            print("Otwieranie notowań z pliku i wydruk wykresu")
         elif wybor_menu == "G" or wybor_menu == "g":
             gra()
         elif wybor_menu == "Q" or wybor_menu == "q":
