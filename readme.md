@@ -3,7 +3,7 @@
 <h3>Program symuluje notowania giełdowe spółki. Użytkownik kupuje lub sprzedaje akcje. Otrzymuje informacje o stanie
 portfela. Na koniec testuje czy osiąga zysk, czy stratę.</h3>
 
-**21 I 2022 ver. 1.1.1**
+<p>21 I 2022 ver. 1.1.1</p>
 
 Dopisane kolejne elementy programu.
 

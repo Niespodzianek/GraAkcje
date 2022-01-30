@@ -7,7 +7,7 @@ def menu():
     portfel = None
     petla_menu = True
     while petla_menu:
-        print("\n" + 20 * "*" + "  MENU GŁÓWNE PROGRAMU  " + 20 * "*" + "\n")
+        print("\n" + 21 * "*" + "  MENU GŁÓWNE PROGRAMU  " + 21 * "*" + "\n")
         wybor_menu = input("(T)Tworzenie nowego portfela\n"
                            "(O)Otwieranie portfela z pliku\n"
                            "(P)Przegląd portfela\n"
@@ -37,6 +37,7 @@ def menu():
             petla_menu = False
         else:
             print("Zły wybór !!!")
+            input("Naciśnij ENTER aby kontynuować")
 
 if __name__ == '__main__':
     menu()
